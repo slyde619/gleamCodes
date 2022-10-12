@@ -27837,7 +27837,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: var(--clr--primary-dark);
   text-decoration: none;
 }
 
@@ -31027,19 +31027,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #175cff;
-  --bs-btn-border-color: #175cff;
+  --bs-btn-color: var(--bg--orange);
+  --bs-btn-border-color: var(--bg--orange);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #175cff;
-  --bs-btn-hover-border-color: #175cff;
+  --bs-btn-hover-bg: var(--clr--primary);
+  --bs-btn-hover-border-color: var(--clr--primary);
   --bs-btn-focus-shadow-rgb: 23, 92, 255;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #175cff;
-  --bs-btn-active-border-color: #175cff;
+  --bs-btn-active-bg: var(--bg--orange);
+  --bs-btn-active-border-color: var(--clr--primary-dark);
   --bs-btn-active-shadow: unset;
   --bs-btn-disabled-color: #175cff;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #175cff;
+  --bs-btn-disabled-border-color: var(--clr--primary);
   --bs-gradient: none;
 }
 
@@ -31939,7 +31939,7 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: var(--bs-navbar-color);
+  color: var(--bg--orange);
   background-color: transparent;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
@@ -44370,7 +44370,7 @@ a,
 
 a:hover,
 .btn-link:hover {
-  color: #175cff;
+  color: var(--clr--primary-dark);
   text-decoration: none;
 }
 
@@ -47531,7 +47531,7 @@ select.form-select {
 }
 
 .btn-outline-primary {
-  border-color: rgba(23, 92, 255, 0.35);
+  border-color: var(--clr--primary-dark);
 }
 
 .btn-outline-accent {
@@ -47762,15 +47762,15 @@ select.form-select {
 }
 
 .btn-outline-primary {
-  color: #175cff;
-  border-color: #175cff;
+  color: var(--clr--primary-dark);
+  border-color: var(--clr--primary);
 }
 
 .btn-soft-primary:hover,
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #175cff;
-  border-color: #175cff;
+  background-color: var(--clr--primary-dark);
+  border-color: var(--clr--primary-dark);
 }
 
 .btn-soft-info {
@@ -51561,4 +51561,8 @@ li.setup-process-item:not(:last-child):before {
 
 .text__orange{
   color: #FFA064 !important;
+}
+
+.fa-bars-staggered{
+  font-size: 1.55rem;
 }
